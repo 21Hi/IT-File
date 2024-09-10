@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Container */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: url('img.webp') no-repeat center center/cover;
+    height: 100vh;
+    color: #71858f;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: rgb(61, 111, 168);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-btn:hover {
+    background: #ff4500;
+}
+
+/* Competencies Section */
+.competencies-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.competencies-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.competency {
+    text-align: center;
+    width: 20%;
+}
+
+.competency i {
+    font-size: 3rem;
+    color: #ff6200;
+}
+
+.competency h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* About Section */
+.about-section {
+    background: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Features Section */
+.features-section {
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+    background: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section input, .contact-section textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+}
+
+.contact-section button {
+    background: #ff6200;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background: #ff4500;
+}
+
+.map-container iframe {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
